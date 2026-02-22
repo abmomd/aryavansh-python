@@ -44,4 +44,9 @@ for i in range(len(list) - 1, -1, -1):
 
 # Create or generate a list of even numbers from 1 to 50.
 
+nums = []
 
+for i in range(2,50,2):
+    nums.append(i)
+
+print(nums)
